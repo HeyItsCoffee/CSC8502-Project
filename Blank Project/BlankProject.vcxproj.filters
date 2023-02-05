@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8e3b58d4-fb9d-4bba-b8eb-7d9c8a7b71fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CWRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseWork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CWRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\CWSkyboxFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWSkyboxVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWHeightMapFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWBumpVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWCombineFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWCombineVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWPointlightFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWPointlightVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWParticleControl.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWDirlightFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWDirlightVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWBasicObjectFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWParticleGeom.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWParticleVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWParticleFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWParticleEvaluation.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWSkinningVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWReflectFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Shaders\CWReflectVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
